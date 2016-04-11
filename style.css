@@ -9,6 +9,10 @@ body {
 
 #header {
     background-color: #0099cc;
+    box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
 }
 
 #title {
@@ -18,7 +22,7 @@ body {
 }
 
 #menu {
-    clear: left;
+    clear: both;
 }
 
 #menu ul {
@@ -33,6 +37,7 @@ body {
 
 #menu li {
     float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #menu li a{
